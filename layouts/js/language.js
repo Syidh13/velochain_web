@@ -17,6 +17,8 @@ const translation = {
     solution_product2_title: 'Optimization of factory performance',
     solution_product2_description:
       'We enable you to easily perform necessary factory performance upgrades. We help you assess, recommend necessary repairs, and help you find alternative financing.',
+    solution_product2_tag:
+      '*Improving factory performance can include optimizing or replacing machines, installing solar panels, replacing raw materials',
     contactus_title: 'Contact Us',
     contactus_subtitle: 'Lets work together! Contact us to get started',
     contactus_name: 'Your Name',
