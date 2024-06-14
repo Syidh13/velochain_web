@@ -23,28 +23,24 @@
             <div class="my-auto px-5 md:px-0 flex justify-between w-full">
                 <!-- logo -->
                 <section class="flex space-x-2">
-                    <img src="./media/lg-velochain.svg" class="h-7" alt="">
-                    <div class="font-primary uppercase text-xl font-semibold text-slate-800">Velochain</div>
+                    <img src="./media/lg-velochain.svg" class="h-7 my-auto" alt="">
+                    <div class="font-primary uppercase my-auto text-xl font-semibold text-slate-800">Velochain</div>
                 </section>
                 <!-- button -->
-                <section class="hidden md:block">
+                <section>
                     <div class="h-full flex">
                         <div class="flex space-x-4 my-auto">
-                            <!-- <a href="#our_product">
-                                <div
-                                    class="font-primary text-slate-700 hover:text-blue-500 transition-colors text-sm font-medium">
-                                    Our Product
-                                </div>
-                            </a>
-                            <a href="#about_us">
-                                <div
-                                    class="font-primary text-slate-700 hover:text-blue-500 transition-colors text-sm font-medium">
-                                    About Us
-                                </div>
-                            </a> -->
-                            <a href="#contactus">
-                                <div
-                                    class="font-primary text-slate-700 hover:text-blue-500 transition-colors text-sm font-medium">
+                            <!-- start language -->
+                            <select name="" id=""
+                                class="py-2 px-3 bg-white rounded-md border text-slate-400 font-primary text-xs">
+                                <option value="en">English</option>
+                                <option value="id">Indonesia</option>
+                            </select>
+                            <!-- end language -->
+
+                            <a href="#contactus" class="hidden md:flex">
+                                <div id="header_contact"
+                                    class="font-primary my-auto text-slate-700 hover:text-blue-500 transition-colors text-sm font-medium">
                                     Contact Us
                                 </div>
                             </a>
@@ -57,27 +53,23 @@
     <!-- end header -->
 
     <!-- start main body -->
-    <section class="py-16 px-5 md:px-0">
+    <section class="py-16 px-5 bg-gradient-to-r from-white to-cyan-50">
         <!-- start title -->
         <section class="flex justify-center md:py-40 py-10">
             <div class="space-y-4">
-                <div
-                    class="font-primary text-slate-700 bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent md:text-5xl text-2xl font-semibold text-center tracking-tight">
-                    Empowering
-                    Suppliers to <br class="hidden md:block">
-                    Thrive
-                    and Go Green.
+                <div id="hero_title"
+                    class="font-primary text-cyan-500 max-w-4xl  md:text-5xl text-3xl font-semibold text-center">
+                    Empowering Manufacturing in Southeast Asia to Grow
                 </div>
-                <div class="text-center font-primary text-slate-500 font-light sm:text-lg">Upgrade Your
-                    Machinery and
-                    Energy
-                    Sources to Secure
-                    More Contracts</div>
+                <div id="hero_subtitle" class="text-center font-primary text-slate-500 font-light sm:text-lg max-w-4xl">
+                    We help you get more orders while improving your factory performance and business easily.
+                </div>
                 <!-- button -->
                 <a href="#contactus" class="flex justify-center">
-                    <div
+                    <div id="hero_contactus"
                         class="py-3 px-5 text-sm font-medium text-center text-white border rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 font-primary">
-                        Contact Us</div>
+                        Contact Us
+                    </div>
                 </a>
             </div>
         </section>
@@ -85,31 +77,31 @@
 
 
         <section class=" pb-20 space-y-20 md:space-y-40">
-            <!-- About Us -->
+            <!-- problem -->
             <section class=" flex justify-center">
                 <div class="max-w-7xl">
                     <div class="md:grid md:grid-cols-2 gap-10 space-y-4 md:space-y-0">
                         <div>
-                            <img src="./media/bg-hero.png" alt="" class="rounded-3xl aspect-square w-full">
+                            <img src="https://images.pexels.com/photos/3760060/pexels-photo-3760060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                alt="" class="rounded-3xl object-cover aspect-square w-full">
                         </div>
                         <div class="flex justify-center">
                             <div class="my-auto text-center md:text-left space-y-4">
                                 <div>
-                                    <div class="text-sm font-primary font-medium text-slate-600">About Velochain</div>
-                                    <div
-                                        class="md:text-4xl text-2xl font-primary font-medium text-slate-800 bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">
-                                        Driving Sustainability and Trust in the Industrial Sector</div>
+                                    <div id="problem_caption"
+                                        class="text-sm text-left font-primary font-medium text-slate-600">
+                                        Problem</div>
+                                    <div id="problem_title"
+                                        class="md:text-4xl text-2xl font-primary text-left font-medium text-slate-800 bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">
+                                        Are you looking for buyers for your factory? Do you want to expand and diversify
+                                        your buyers?
+                                    </div>
                                 </div>
-                                <div class="sm:text-lg  font-primary text-justify font-light text-slate-600">Velochain
-                                    is dedicated
-                                    to helping suppliers overcome these challenges by reducing their carbon footprint
-                                    and
-                                    improving their operational efficiency while building trust with partners. <br><br>
-                                    By
-                                    leveraging
-                                    advanced technology and sustainable practices, Velochain aims to reduce 100 megatons
-                                    of
-                                    carbon in Southeast Asia and achieve $100 million in annual revenue.
+                                <div id="problem_description"
+                                    class="sm:text-lg  font-primary text-justify font-light text-slate-600">Velochain is
+                                    dedicated to helping manufacturers thrive in a competitive industrial sector by
+                                    securing more contracts while making it easier to optimize your factory performance.
+
                                 </div>
                             </div>
                         </div>
@@ -117,106 +109,127 @@
                     </div>
                 </div>
             </section>
-            <!-- End about us -->
+            <!-- End problem -->
 
 
 
-            <!-- start Our Products -->
-            <section class="flex justify-center bg-white" id="our_product">
+            <!-- start Solution -->
+            <section class="flex justify-center " id="our_product">
                 <div class="max-w-7xl w-full space-y-8">
-                    <div
+                    <div id="solution_caption"
                         class="font-primary text-slate-700 md:text-4xl text-2xl font-semibold text-center bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">
-                        Our Products
+                        Solution
                     </div>
-                    <div class="md:grid md:grid-cols-3 gap-3 w-full max-w-7xl space-y-4 md:space-y-0">
+                    <div class="md:grid md:grid-cols-2 gap-3 w-full max-w-7xl space-y-4 md:space-y-0">
                         <!-- product 1 -->
-                        <div class="p-10 rounded-3xl border space-y-6">
-                            <img src="./media/img_Machinery.jpg" class="object-cover rounded-xl w-full" alt="">
+                        <div class="p-10 rounded-3xl border space-y-6 bg-white">
+                            <img src="https://images.pexels.com/photos/4968630/pexels-photo-4968630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                class="object-cover aspect-video rounded-xl w-full" alt="">
                             <div class="space-y-1">
-                                <div class="font-primary font-medium text-slate-700 text-2xl">Machinery Upgrades</div>
-                                <div class="sm:text-lg font-primary font-light text-slate-600">Modernize your equipment
-                                    to
-                                    improve efficiency and reduce emissions.</div>
+                                <div id="solution_product1_title"
+                                    class="font-primary font-medium text-slate-700 text-2xl">Hundreds of buyers are
+                                    waiting for you!
+                                </div>
+                                <div id="solution_product1_description"
+                                    class="sm:text-lg font-primary font-light text-slate-600">We have potential
+                                    contracts from various buyers that you can get with a minimum contract value of IDR
+                                    1.5 billion
+                                </div>
                             </div>
                         </div>
                         <!-- end product 1 -->
 
                         <!-- product 2 -->
-                        <div class="p-10 rounded-3xl border space-y-6">
-                            <img src="./media/img_energy.jpg" class="object-cover rounded-xl w-full" alt="">
+                        <div class="p-10 rounded-3xl border space-y-6 bg-white">
+                            <img src="https://images.pexels.com/photos/10020432/pexels-photo-10020432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                class="object-cover aspect-video rounded-xl w-full" alt="">
                             <div class="space-y-1">
-                                <div class="font-primary font-medium text-slate-700 text-2xl">Energy Source
-                                    Transformation</div>
-                                <div class="sm:text-lg font-primary font-light text-slate-600">Transition to renewable
-                                    energy sources like solar and wind power.</div>
+                                <div id="solution_product2_title"
+                                    class="font-primary font-medium text-slate-700 text-2xl">Optimization of factory
+                                    performance</div>
+                                <div id="solution_product2_description"
+                                    class="sm:text-lg font-primary font-light text-slate-600">We enable you to easily
+                                    perform necessary factory performance upgrades. We help you assess, recommend
+                                    necessary repairs, and help you find alternative financing.
+                                </div>
+                                <div id="solution_product2_tag"
+                                    class="text-sm font-primary font-light text-slate-400 pt-4">*Peningkatan performa
+                                    pabrik
+                                    ini dapat mencakup optimalisasi atau penggantian mesin, pemasangan panel surya,
+                                    penggantian bahan baku</div>
                             </div>
                         </div>
                         <!-- end product 2 -->
-
-                        <!-- product 3 -->
-                        <div class="p-10 rounded-3xl border space-y-6">
-                            <img src="https://images.pexels.com/photos/4098215/pexels-photo-4098215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                                class="object-cover rounded-xl aspect-square w-full" alt="">
-                            <div class="space-y-1">
-                                <div class="font-primary font-medium text-slate-700 text-2xl">Sustainability Consulting
-                                </div>
-                                <div class="sm:text-lg font-primary font-light text-slate-600">Get expert advice on
-                                    implementing sustainable practices and achieving compliance with environmental
-                                    regulations.</div>
-                            </div>
-                        </div>
-                        <!-- end product 3 -->
                     </div>
                 </div>
             </section>
-            <!-- end our product -->
+            <!-- end solution -->
 
             <!-- contact us -->
-            <section class="bg-white" id="contactus">
+            <section id="contactus">
                 <div class=" px-4 mx-auto max-w-screen-md font-primary">
-                    <h2
+                    <h2 id="contactus_title"
                         class="mb-4 text-4xl tracking-tight font-semibold text-center text-gray-700 bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">
-                        Contact Us</h2>
-                    <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-lg">Need
-                        details about our Business
-                        plan? Let us know..</p>
+                        Contact Us
+                    </h2>
+                    <p id="contactus_subtitle"
+                        class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-lg">Let's
+                        work together! Contact us to get started
+                        .</p>
                     <form action="https://api.web3forms.com/submit" method="POST" class="space-y-8">
                         <input type="hidden" name="access_key" value="555e2d54-1d1e-4297-a7fe-312f989cab74">
+                        <input type="hidden" name="subject" value="New Submission from Web3Forms">
                         <div>
-                            <label for="Your Name"
+                            <label for="YourName" id="contactus_name"
                                 class="block mb-2 text-sm font-medium text-slate-800 dark:text-gray-300">Your
                                 Name</label>
-                            <input type="text" id="Your_Name" name="name"
+                            <input type="text" id="Your_Name" name="Name"
                                 class="block p-3 w-full text-sm text-slate-800 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 "
-                                placeholder="Let us know what is your name?" required>
+                                required>
                         </div>
                         <div>
-                            <label for="email"
+                            <label for="email" id="contactus_email"
                                 class="block mb-2 text-sm font-medium text-slate-800 dark:text-gray-300">Your
-                                email</label>
+                                Email</label>
                             <input type="email" id="email" name="email"
                                 class="shadow-sm bg-gray-50 border border-gray-300 text-slate-800 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
-                                placeholder="name@velochain.com" required>
+                                required>
                         </div>
                         <div>
-                            <label for="company"
+                            <label for="company" id="contactus_company"
                                 class="block mb-2 text-sm font-medium text-slate-800 dark:text-gray-300">Your
-                                company</label>
-                            <input type="text" id="company" name="company"
+                                Company</label>
+                            <input type="text" id="company" name="Company"
                                 class="shadow-sm bg-gray-50 border border-gray-300 text-slate-800 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
-                                placeholder="Input your company name" required>
+                                required>
                         </div>
-                        <div class="sm:col-span-2">
+                        <div>
+                            <label for="position" id="contactus_position"
+                                class="block mb-2 text-sm font-medium text-slate-800 dark:text-gray-300">Your
+                                Position</label>
+                            <input type="text" id="posisi" name="Position"
+                                class="shadow-sm bg-gray-50 border border-gray-300 text-slate-800 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
+                                required>
+                        </div>
+                        <div>
+                            <label for="Phone Number" id="contactus_phone"
+                                class="block mb-2 text-sm font-medium text-slate-800 dark:text-gray-300">Your Phone
+                                Number</label>
+                            <input type="text" id="Nomor_telepon" name="Phone Number"
+                                class="shadow-sm bg-gray-50 border border-gray-300 text-slate-800 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
+                                required>
+                        </div>
+                        <!-- <div class="sm:col-span-2">
                             <label for="message"
                                 class="block mb-2 text-sm font-medium text-slate-800 dark:text-gray-400">Your
                                 message</label>
                             <textarea id="message" rows="6" name="message"
                                 class="block p-2.5 w-full text-sm text-slate-800 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 "
                                 placeholder="Leave a message..."></textarea>
-                        </div>
-                        <button type="submit"
+                        </div> -->
+                        <button type="submit" id="contactus_sendus"
                             class="py-3 px-5 text-sm text-white font-medium text-center text- border rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 ">Send
-                            message</button>
+                            Us</button>
                     </form>
                 </div>
             </section>
@@ -226,8 +239,6 @@
     <!-- end main body -->
 
     <!-- start footer -->
-
-
     <footer class="bg-white rounded-lg shadow">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div class="flex justify-center">
@@ -236,32 +247,16 @@
                     <img src="./media/lg-velochain.svg" class="h-7" alt="">
                     <div class="font-primary uppercase text-xl font-semibold text-slate-800">Velochain</div>
                 </section>
-                <!-- <ul
-                    class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">About</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline">Contact</a>
-                    </li>
-                </ul> -->
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <span class="block text-sm text-gray-500 text-center dark:text-gray-400">© 2024 <a
                     href="https://flowbite.com/" class="hover:underline">Velochain</a>. All Rights Reserved.</span>
         </div>
     </footer>
-
-
     <!-- end footer -->
 
 
+    <script src="./js/language.js"></script>
 </body>
 
 </html>
