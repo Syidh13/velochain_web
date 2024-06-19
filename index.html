@@ -4,7 +4,7 @@
 <head>
     <meta charset=" UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./layouts/css/styles.css">
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
         rel="stylesheet">
     <title>Velochain</title>
     <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="./media/lg-velochain.svg">
+    <link rel="icon" type="image/x-icon" href="./layouts/media/lg-velochain.svg">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
             <div class="my-auto px-5 md:px-0 flex justify-between w-full">
                 <!-- logo -->
                 <section class="flex space-x-2">
-                    <img src="./media/lg-velochain.svg" class="h-7 my-auto" alt="">
+                    <img src="./layouts/media/lg-velochain.svg" class="h-7 my-auto" alt="">
                     <div class="font-primary uppercase my-auto text-xl font-semibold text-slate-800">Velochain</div>
                 </section>
                 <!-- button -->
@@ -132,9 +132,22 @@
                                 </div>
                                 <div id="solution_product1_description"
                                     class="sm:text-lg font-primary font-light text-slate-600">We have potential
-                                    contracts from various buyers that you can get with a minimum contract value of IDR
-                                    1.5 billion
+                                    contracts from various buyers that you can get with large contract values ​​after
+                                    you upgrade or improve factory performance, such as:
                                 </div>
+                                <ul class=" font-primary text-base text-teal-500 space-y-2 pt-4 font-light">
+                                    <li class="py-3 px-4 rounded-lg bg-teal-50" id="solution_product1_subdesc_1">
+                                        Optimization or replacement of
+                                        production machines with more energy efficient machines
+                                    </li>
+                                    <li class="py-3 px-4 rounded-lg bg-teal-50" id="solution_product1_subdesc_2">Solar
+                                        panel installation
+                                    </li>
+                                    <li class="py-3 px-4 rounded-lg bg-teal-50" id="solution_product1_subdesc_3">
+                                        Replacement of raw materials with more
+                                        environmentally friendly sources
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                         <!-- end product 1 -->
@@ -196,9 +209,17 @@
                         </div>
                         <div>
                             <label for="company" id="contactus_company"
-                                class="block mb-2 text-sm font-medium text-slate-800 dark:text-gray-300">Your
-                                Company</label>
+                                class="block mb-2 text-sm font-medium text-slate-800 dark:text-gray-300">Company
+                                Name</label>
                             <input type="text" id="company" name="Company"
+                                class="shadow-sm bg-gray-50 border border-gray-300 text-slate-800 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
+                                required>
+                        </div>
+                        <div>
+                            <label for="Manufacturing sector" id="contactus_ManufacturingSector"
+                                class="block mb-2 text-sm font-medium text-slate-800 dark:text-gray-300">Manufacturing
+                                Sector</label>
+                            <input type="text" id="ManufacturingSector" name="Manufacturing Sector"
                                 class="shadow-sm bg-gray-50 border border-gray-300 text-slate-800 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
                                 required>
                         </div>
@@ -243,7 +264,7 @@
             <div class="flex justify-center">
                 <!-- logo -->
                 <section class="flex space-x-2">
-                    <img src="./media/lg-velochain.svg" class="h-7" alt="">
+                    <img src="./layouts/media/lg-velochain.svg" class="h-7" alt="">
                     <div class="font-primary uppercase text-xl font-semibold text-slate-800">Velochain</div>
                 </section>
             </div>
@@ -255,7 +276,7 @@
     <!-- end footer -->
 
 
-    <script src="./js/language.js"></script>
+    <script src="./layouts/js/language.js"></script>
 </body>
 
 </html>

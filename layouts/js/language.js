@@ -13,7 +13,12 @@ const translation = {
     solution_caption: 'Solution',
     solution_product1_title: 'Hundreds of buyers are waiting for you!',
     solution_product1_description:
-      'We have potential contracts from various buyers that you can get with a minimum contract value of IDR 1.5 billion',
+      'We have potential contracts from various buyers that you can get with large contract values ​​after you upgrade or improve factory performance, such as:',
+    solution_product1_subdesc_1:
+      'Optimization or replacement of production machines with more energy efficient machines',
+    solution_product1_subdesc_2: 'Solar panel installation',
+    solution_product1_subdesc_3:
+      'Replacement of raw materials with more environmentally friendly sources',
     solution_product2_title: 'Optimization of factory performance',
     solution_product2_description:
       'We enable you to easily perform necessary factory performance upgrades. We help you assess, recommend necessary repairs, and help you find alternative financing.',
@@ -25,6 +30,7 @@ const translation = {
     contactus_email: 'Your Email',
     contactus_company: 'Your Company',
     contactus_position: 'Your Position',
+    contactus_ManufacturingSector: 'Manufacturing Sector',
     contactus_phone: 'Your Phone Number',
     contactus_sendus: 'Send Us',
   },
@@ -42,7 +48,12 @@ const translation = {
     solution_caption: 'Solusi',
     solution_product1_title: 'Ratusan buyer menunggu Anda!',
     solution_product1_description:
-      'Kami memiliki kontrak-kontrak potensial dari berbagai buyer yang bisa Anda dapatkan dengan nilai kontrak minimal Rp 1,5 miliar',
+      'Kami memiliki kontrak-kontrak potensial dari berbagai buyer yang bisa Anda dapatkan dengan nilai kontrak yang besar setelah Anda melakukan upgrade atau peningkatan performa pabrik seperti:',
+    solution_product1_subdesc_1:
+      'Optimalisasi atau penggantian mesin produksi dengan mesin yang lebih hemat energi',
+    solution_product1_subdesc_2: 'Pemasangan panel surya',
+    solution_product1_subdesc_3:
+      'Penggantian bahan baku dengan sumber yang lebih ramah lingkungan ',
     solution_product2_title: 'Optimalisasi Performa Pabrik',
     solution_product2_description:
       'Kami memungkinkan Anda melakukan peningkatan perfroma pabrik yang diperlukan dengan mudah. Kami membantu Anda menilai, merekomendasikan perbaikan yang diperlukan, dan membantu Anda menemukan pembiayaan alternatif. ',
@@ -54,6 +65,7 @@ const translation = {
     contactus_email: 'Email Anda',
     contactus_company: 'Perusahaan Anda',
     contactus_position: 'Posisi Anda',
+    contactus_ManufacturingSector: 'Sektor Manufaktur',
     contactus_phone: 'Nomor Telephone Anda',
     contactus_sendus: 'Kirimkan',
   },
@@ -79,6 +91,12 @@ const setLanguage = (language) => {
     solution_product1_title.innerText = translation.en.solution_product1_title;
     solution_product1_description.innerText =
       translation.en.solution_product1_description;
+    solution_product1_subdesc_1.innerText =
+      translation.en.solution_product1_subdesc_1;
+    solution_product1_subdesc_2.innerText =
+      translation.en.solution_product1_subdesc_2;
+    solution_product1_subdesc_3.innerText =
+      translation.en.solution_product1_subdesc_3;
     solution_product2_title.innerText = translation.en.solution_product2_title;
     solution_product2_description.innerText =
       translation.en.solution_product2_description;
@@ -89,6 +107,8 @@ const setLanguage = (language) => {
     contactus_email.innerText = translation.en.contactus_email;
     contactus_company.innerText = translation.en.contactus_company;
     contactus_position.innerText = translation.en.contactus_position;
+    contactus_ManufacturingSector.innerText =
+      translation.en.contactus_ManufacturingSector;
     contactus_phone.innerText = translation.en.contactus_phone;
     contactus_sendus.innerText = translation.en.contactus_sendus;
   } else if (language == 'id') {
@@ -103,6 +123,12 @@ const setLanguage = (language) => {
     solution_product1_title.innerText = translation.id.solution_product1_title;
     solution_product1_description.innerText =
       translation.id.solution_product1_description;
+    solution_product1_subdesc_1.innerText =
+      translation.id.solution_product1_subdesc_1;
+    solution_product1_subdesc_2.innerText =
+      translation.id.solution_product1_subdesc_2;
+    solution_product1_subdesc_3.innerText =
+      translation.id.solution_product1_subdesc_3;
     solution_product2_title.innerText = translation.id.solution_product2_title;
     solution_product2_description.innerText =
       translation.id.solution_product2_description;
@@ -113,6 +139,8 @@ const setLanguage = (language) => {
     contactus_email.innerText = translation.id.contactus_email;
     contactus_company.innerText = translation.id.contactus_company;
     contactus_position.innerText = translation.id.contactus_position;
+    contactus_ManufacturingSector.innerText =
+      translation.id.contactus_ManufacturingSector;
     contactus_phone.innerText = translation.id.contactus_phone;
     contactus_sendus.innerText = translation.id.contactus_sendus;
   }
