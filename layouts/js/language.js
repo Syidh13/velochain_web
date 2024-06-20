@@ -33,6 +33,7 @@ const translation = {
     contactus_ManufacturingSector: 'Manufacturing Sector',
     contactus_phone: 'Your Phone Number',
     contactus_sendus: 'Send Us',
+    test: 'wow',
   },
   id: {
     header_contact: 'Hubungi Kami',
@@ -68,6 +69,7 @@ const translation = {
     contactus_ManufacturingSector: 'Sektor Manufaktur',
     contactus_phone: 'Nomor Telephone Anda',
     contactus_sendus: 'Kirimkan',
+    test: 'Hubungi Kami',
   },
 };
 
@@ -97,10 +99,7 @@ const setLanguage = (language) => {
       translation.en.solution_product1_subdesc_2;
     solution_product1_subdesc_3.innerText =
       translation.en.solution_product1_subdesc_3;
-    solution_product2_title.innerText = translation.en.solution_product2_title;
-    solution_product2_description.innerText =
-      translation.en.solution_product2_description;
-    solution_product2_tag.innerText = translation.en.solution_product2_tag;
+
     contactus_title.innerText = translation.en.contactus_title;
     contactus_subtitle.innerText = translation.en.contactus_subtitle;
     contactus_name.innerText = translation.en.contactus_name;
@@ -111,6 +110,7 @@ const setLanguage = (language) => {
       translation.en.contactus_ManufacturingSector;
     contactus_phone.innerText = translation.en.contactus_phone;
     contactus_sendus.innerText = translation.en.contactus_sendus;
+    test.innerText = translation.en.test;
   } else if (language == 'id') {
     header_contact.innerText = translation.id.header_contact;
     hero_title.innerText = translation.id.hero_title;
@@ -129,10 +129,7 @@ const setLanguage = (language) => {
       translation.id.solution_product1_subdesc_2;
     solution_product1_subdesc_3.innerText =
       translation.id.solution_product1_subdesc_3;
-    solution_product2_title.innerText = translation.id.solution_product2_title;
-    solution_product2_description.innerText =
-      translation.id.solution_product2_description;
-    solution_product2_tag.innerText = translation.id.solution_product2_tag;
+
     contactus_title.innerText = translation.id.contactus_title;
     contactus_subtitle.innerText = translation.id.contactus_subtitle;
     contactus_name.innerText = translation.id.contactus_name;
@@ -143,5 +140,6 @@ const setLanguage = (language) => {
       translation.id.contactus_ManufacturingSector;
     contactus_phone.innerText = translation.id.contactus_phone;
     contactus_sendus.innerText = translation.id.contactus_sendus;
+    test.innerText = translation.id.test;
   }
 };
