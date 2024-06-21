@@ -36,7 +36,7 @@
     <!-- start header -->
     <section class=" h-16 bg-white border-b flex justify-center fixed w-full z-50">
         <div class="max-w-7xl w-full flex">
-            <div class="my-auto px-5 md:px-0 flex justify-between w-full">
+            <div class="my-auto px-5 lg:px-0 flex justify-between w-full">
                 <!-- logo -->
                 <section class="flex space-x-2">
                     <img src="./layouts/media/lg-velochain.svg" class="h-7 my-auto" alt="">
@@ -55,12 +55,25 @@
                             </select>
                             <!-- end language -->
 
-                            <a href="#contactus" class="hidden md:flex">
+                            <!-- sosmed for desktop -->
+                            <div class="my-auto  space-x-4 md:flex hidden">
+                                <a href="https://www.instagram.com/velochain.io/" target="_blank"
+                                    class="border p-2 rounded-md bg-white text-slate-500 hover:bg-blue-500 hover:text-white transition-colors">
+                                    <i data-lucide="instagram"></i>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=61560921734317" target="_blank"
+                                    class="border p-2 rounded-md bg-white text-slate-500 hover:bg-blue-500 hover:text-white transition-colors">
+                                    <i data-lucide="facebook"></i>
+                                </a>
+                            </div>
+                            <!-- end sosmed for desktop -->
+
+                            <!-- <a href="#contactus" class="hidden md:flex">
                                 <div id="header_contact"
                                     class="font-primary my-auto text-slate-700 hover:text-blue-500 transition-colors text-sm font-medium">
                                     Hubungi Kami
                                 </div>
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </section>
@@ -282,23 +295,38 @@
     <!-- start footer -->
     <footer class="bg-white rounded-lg shadow">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-            <div class="flex justify-center">
+            <div class="flex justify-between md:justify-center">
                 <!-- logo -->
-                <section class="flex space-x-2">
+                <section class="flex space-x-2 my-auto">
                     <img src="./layouts/media/lg-velochain.svg" class="h-7" alt="">
                     <div class="font-primary uppercase text-xl font-semibold text-slate-800">Velochain</div>
                 </section>
+                <!-- sosmed for Mobile -->
+                <div class="my-auto  space-x-4 flex md:hidden">
+                    <a href="https://www.instagram.com/velochain.io/" target="_blank"
+                        class="border p-2 rounded-md bg-white text-slate-500 hover:bg-blue-500 hover:text-white transition-colors">
+                        <i data-lucide="instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61560921734317" target="_blank"
+                        class="border p-2 rounded-md bg-white text-slate-500 hover:bg-blue-500 hover:text-white transition-colors">
+                        <i data-lucide="facebook"></i>
+                    </a>
+                </div>
+                <!-- end sosmed for Mobile -->
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <span class="block text-sm text-gray-500 text-center dark:text-gray-400">© 2024 <a
-                    href="https://flowbite.com/" class="hover:underline">Velochain</a>. All Rights Reserved.</span>
+                    class="hover:underline">Velochain</a>. All Rights Reserved.</span>
         </div>
     </footer>
     <!-- end footer -->
 
 
 
-
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
 
     <script src="./layouts/js/language.js"></script>
 </body>

@@ -1,6 +1,6 @@
 const translation = {
   en: {
-    header_contact: 'Contact Us',
+    // header_contact: 'Contact Us',
     hero_title: 'Empowering Manufacturing in Southeast Asia to Grow',
     hero_subtitle:
       'We help you get more orders while improving your factory performance and business easily.',
@@ -36,7 +36,7 @@ const translation = {
     test: 'wow',
   },
   id: {
-    header_contact: 'Hubungi Kami',
+    // header_contact: 'Hubungi Kami',
     hero_title: 'Memberdayakan Manufaktur di Asia Tenggara untuk Berkembang ',
     hero_subtitle:
       'Kami membantu Anda mendapatkan lebih banyak pesanan sambil meningkatkan performa dan bisnis pabrik Anda dengan mudah.',
@@ -82,7 +82,7 @@ languageSelectop.addEventListener('change', (event) => {
 
 const setLanguage = (language) => {
   if (language == 'en') {
-    header_contact.innerText = translation.en.header_contact;
+    // header_contact.innerText = translation.en.header_contact;
     hero_title.innerText = translation.en.hero_title;
     hero_subtitle.innerText = translation.en.hero_subtitle;
     hero_contactus.innerText = translation.en.hero_contactus;
@@ -112,7 +112,7 @@ const setLanguage = (language) => {
     contactus_sendus.innerText = translation.en.contactus_sendus;
     test.innerText = translation.en.test;
   } else if (language == 'id') {
-    header_contact.innerText = translation.id.header_contact;
+    // header_contact.innerText = translation.id.header_contact;
     hero_title.innerText = translation.id.hero_title;
     hero_subtitle.innerText = translation.id.hero_subtitle;
     hero_contactus.innerText = translation.id.hero_contactus;
